@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/card_view_landscape"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/imagePersoon_landscape"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/namePersoon_landscape"
+                android:layout_toRightOf="@+id/imagePersoon_landscape"
+                android:text="Naam : "
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/geslachtPersoon_landscape"
+                android:layout_toRightOf="@+id/namePersoon_landscape"
+                android:text="geslacht : "
+                android:layout_marginLeft="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/haarskleurPersoon_landscape"
+                android:layout_toRightOf="@+id/geslachtPersoon_landscape"
+                android:text="haarskleur : "
+                android:layout_marginLeft="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/kaalPersoon_landscape"
+                android:layout_below="@+id/namePersoon_landscape"
+                android:layout_toRightOf="@+id/imagePersoon_landscape"
+                android:text="Kaal : "
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/hoofddekselPersoon_landscape"
+                android:layout_toRightOf="@+id/kaalPersoon_landscape"
+                android:layout_below="@+id/geslachtPersoon_landscape"
+                android:text="Hoofddeksel : "
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/brilPersoon_landscape"
+                android:layout_toRightOf="@+id/hoofddekselPersoon_landscape"
+                android:layout_below="@+id/haarskleurPersoon_landscape"
+                android:text="Bril : "
+                android:layout_marginLeft="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/huidskleurPersoon_landscape"
+                android:layout_below="@+id/kaalPersoon_landscape"
+                android:layout_toRightOf="@+id/imagePersoon_landscape"
+                android:text="Huidskleur : "
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/baardPersoon_landscape"
+                android:layout_toRightOf="@+id/huidskleurPersoon_landscape"
+                android:layout_below="@+id/hoofddekselPersoon_landscape"
+                android:text="Baard : "
+                android:layout_marginLeft="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/snorPersoon_landscape"
+                android:layout_toRightOf="@+id/baardPersoon_landscape"
+                android:layout_below="@+id/brilPersoon_landscape"
+                android:text="Snor : "
+                android:layout_marginLeft="30dp"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">2048Game</string>
+    <string name="aboutString">About 2018. 2048 is played on a gray 4x4 grid, with numbered tiles that slide smootly when a player moves them using the four arrows keys. every turn, a new tile will randomly appear in an empty spot on the board with a value of either 2 or 4.
+    Tiles slide as far as possible in the chosen direction until they are stopped by either anohter tile or the edge of the grid. if two tiles of the same number collide while moving, they will merge into a tile with the total value of the two titles that collided.
+    The resulting tile cannot merge with another tile again in the same move. Higher scoring titles emit a soft glow. the game is won when a tile with the value of 2048 appears on the board. hence the name of the game. After reaching the 2048 tile, players can continue to play to reach higher scores. the maximum possible tile is 131 072</string>
+</resources>
